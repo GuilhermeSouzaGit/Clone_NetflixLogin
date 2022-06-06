@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 90px;
+}
+.logo {
+    margin-left: 3%;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.main {
+    height: 100vh;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/329c9f21-e3ff-4af2-9012-89e293573d83/BR-pt-20220530-popsignuptwoweeks-perspective_alpha_website_medium.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
