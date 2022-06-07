@@ -2,14 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
-@media only screen and (max-width: 740px) {
+@media only screen and (min-width: 740px) {
     body {
-      background-color: rgb(0, 0, 0);
+        background: url(https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/329c9f21-e3ff-4af2-9012-89e293573d83/BR-pt-20220530-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-size: cover;
+        height: 100vh;
     }
-}
-.body {
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/329c9f21-e3ff-4af2-9012-89e293573d83/BR-pt-20220530-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
-    background-size: cover;
 }
 .header {
     height: 90px;
@@ -19,8 +17,78 @@ body {
     margin-top: 22px;
     cursor: pointer;
 }
+.form {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: .3rem;
+    width: 314px;
+    height: 560px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px 68px 40px 68px;
+}
+.form-group {
+    padding-bottom: 16px;
+}
+.form-group input {
+    width: 314px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(49, 46, 46);
+}
+.form button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+    cursor: pointer;
+}
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #b3b3b3;
+    font-weight: 500;
+}
+.remember a:hover {
+    text-decoration: underline;
+}
+.right a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+.form-footer {
+    margin-top: 100px;
+    font-size: 13px;
+}
+.form-footer a:hover {
+    text-decoration: underline;
+}
+.signup {
+    color: #747474;
+}
+.signup a {
+    text-decoration: none;
+    color: #fff;
+}
+.learn-more {
+    color: #747474;
+}
+.learn-more a {
+    text-decoration: none;
+    color: #0071eb;
+}
 .gradient {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to top,
     rgba(0,0,0,.8) 0,
     rgba(0,0,0,0) 60%,
@@ -32,4 +100,14 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+@media only screen and (max-width: 740px) {
+    body {
+        background-color: black;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .logo {
+        width: 75px;
+    }
 }
