@@ -133,11 +133,28 @@ footer .links a {
 }
 @media only screen and (max-width: 740px) {
     body {
-        background-color: black;
+        background-color: rgb(0, 0, 0);
+    }
+    .form {
+        padding: 0;
+        width: 90%;
+    }
+    .form-group input {
+        width: 99%;
     }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 440px) {
     .logo {
         width: 75px;
+    }
+    .header {
+        height: 45px;
+    }
+    .form {
+        padding: 0;
+        width: 90%;
+    }
+    .form-group input{
+        width: 99%;
     }
 }
